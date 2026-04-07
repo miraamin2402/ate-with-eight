@@ -115,18 +115,20 @@ export default function TheWhyPage() {
                 rayouf alhumedhi
               </Link>
             </h3>
-            <div className="font-body text-center text-base leading-[1.75] text-[#1B2A6B] sm:text-lg sm:leading-[1.8] md:text-left">
+            <div className="font-body text-center text-[15px] leading-[1.75] text-[#1B2A6B] md:text-left">
               {/* add maha's personal site link here later */}
               <p>
-                maha spent a decade at bain before joining bessemer, where she now leads bvp&apos;s
-                pre-seed and seed investing efforts. she is the current cohost of ate with eight, and
-                we collaborated on dinners 3, 4, and 5 in q1 2026 (more to come!). maha is a dessert and baking
-                connoisseur: she made a banana pudding at our fifth dinner that is genuinely better than
-                magnolia bakery (ifykyk). she&apos;s also an avid writer and traveller, which nourishes
-                her love for trying global cuisines.
+                maha grew up in pakistan, where doors were open, meals were shared freely, and it was
+                never unusual for strangers or neighbors to be pulled in and fed like family. she spent
+                a decade at bain before joining bessemer, where she is now a leader in bvp&apos;s
+                pre-seed and seed investing efforts. she is also the current co-host of ate with
+                eight, and we collaborated on dinners 3, 4, and 5 in q1 2026. these days, maha is a
+                dessert and baking enthusiast. she made a banana pudding at our fifth dinner that is
+                genuinely better than magnolia bakery (ifykyk). she&apos;s also an avid writer and
+                traveler, which nourishes her love for new cuisines and bringing people together.
               </p>
             </div>
-            <div className="font-body text-center text-base leading-[1.75] text-[#1B2A6B] sm:text-lg sm:leading-[1.8] md:text-left">
+            <div className="font-body text-center text-[15px] leading-[1.75] text-[#1B2A6B] md:text-left">
               <p>
                 hailing from riyadh, but growing up in berlin and vienna, rayouf is a designer turned
                 investor at bessemer who loves all things creative ai. she also is the creator of the
