@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+:root {
+  --background: #f4e9d8;
+  --foreground: #2c2419;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-playfair), ui-serif, Georgia, serif;
+  --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+}
+
+.font-heading {
+  font-family: var(--font-playfair), ui-serif, Georgia, serif;
+}
+
+.font-body {
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+.font-caveat {
+  font-family: var(--font-caveat), cursive;
+}
+
+.perspective-dinner {
+  perspective: 1200px;
+}
+
