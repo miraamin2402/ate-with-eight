@@ -1,23 +1,14 @@
-import { JoinTypeformSection } from "@/components/JoinTypeformSection";
+import { StepForm } from "@/components/StepForm";
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-[#F4E9D8] pt-24 sm:pt-28">
-      <JoinTypeformSection
-        compactSpacing
-        title="get in touch"
-        afterForm={
-          <p className="font-body mx-auto max-w-xl text-center text-base leading-relaxed text-[#2C2C2A] sm:text-lg">
-            feel free to email us at{" "}
-            <a
-              href="mailto:atewith8@gmail.com"
-              className="text-[#1B2A6B] underline decoration-[#c9b8a0] underline-offset-2 transition-colors hover:text-[#C1440E] hover:decoration-[#C1440E] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#1B2A6B]"
-            >
-              atewith8@gmail.com
-            </a>
-          </p>
-        }
-      />
+    <main className="min-h-screen bg-[#F4E9D8] px-5 pb-24 pt-24 sm:px-8 sm:pb-32 sm:pt-28">
+      <div className="mx-auto w-full max-w-xl">
+        <h1 className="font-heading text-center text-2xl font-normal italic tracking-tight text-[#1B2A6B] sm:text-3xl">
+          get in touch
+        </h1>
+        <StepForm className="mt-10" />
+      </div>
     </main>
   );
 }

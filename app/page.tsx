@@ -1,7 +1,7 @@
 import { AboutSection } from "@/components/AboutSection";
 import { CollageHolder } from "@/components/CollageHolder";
 import { Hero } from "@/components/Hero";
-import { JoinTypeformSection } from "@/components/JoinTypeformSection";
+import { StepForm } from "@/components/StepForm";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <Hero />
       <AboutSection />
       <CollageHolder />
-      <JoinTypeformSection />
+      <StepForm sectionTitle="come join us for a bite" />
     </main>
   );
 }
